@@ -6,6 +6,7 @@
  } },
  { "cc_library": {
     "name": "cppunit",
+    "strict_file_mode": false,
     "cc_objects": [ "$GEN_DIR/lib/libcppunit.a" ],
     "cc_headers": [ "include/cppunit/*.h",
                     "include/cppunit/*/*.h",
