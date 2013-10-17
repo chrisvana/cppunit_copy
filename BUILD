@@ -11,7 +11,7 @@
     "cc_headers": [ "include/cppunit/*.h",
                     "include/cppunit/*/*.h",
                     "include/cppunit/*/*/*.h" ],
-    "include_dirs": [ "include" ],
+    "cc_include_dirs": [ "include" ],
     "dependencies": [ ":cppunit_conf" ]
  } }
 ]
