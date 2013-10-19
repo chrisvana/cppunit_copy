@@ -1,13 +1,11 @@
 /* config/config.h.in.  Generated from configure.in by autoheader.  */
 
-/* define if library uses std::string::compare(string,pos,n) */
-#undef FUNC_STRING_COMPARE_STRING_FIRST
-
-/* define if the library defines strstream */
-#undef HAVE_CLASS_STRSTREAM
-
 /* Define to 1 if you have the <cmath> header file. */
 #undef HAVE_CMATH
+
+/* Define to 1 if you have the declaration of `cygwin_conv_path', and to 0 if
+   you don't. */
+#undef HAVE_DECL_CYGWIN_CONV_PATH
 
 /* Define if you have the GNU dld library. */
 #undef HAVE_DLD
@@ -18,35 +16,26 @@
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #undef HAVE_DLFCN_H
 
+/* Define if you have the _dyld_func_lookup function. */
+#undef HAVE_DYLD
+
 /* Define to 1 if you have the `finite' function. */
 #undef HAVE_FINITE
-
-/* define if the compiler supports GCC C++ ABI name demangling */
-#undef HAVE_GCC_ABI_DEMANGLE
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #undef HAVE_INTTYPES_H
 
-/* define if compiler has isfinite */
-#undef HAVE_ISFINITE
-
 /* Define if you have the libdl library or equivalent. */
 #undef HAVE_LIBDL
+
+/* Define if libdlloader will be built on this platform */
+#undef HAVE_LIBDLLOADER
 
 /* Define to 1 if you have the <memory.h> header file. */
 #undef HAVE_MEMORY_H
 
-/* define to 1 if the compiler implements namespaces */
-#undef HAVE_NAMESPACES
-
-/* define if the compiler supports Run-Time Type Identification */
-#undef HAVE_RTTI
-
 /* Define if you have the shl_load function. */
 #undef HAVE_SHL_LOAD
-
-/* define if the compiler has stringstream */
-#undef HAVE_SSTREAM
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #undef HAVE_STDINT_H
@@ -59,9 +48,6 @@
 
 /* Define to 1 if you have the <string.h> header file. */
 #undef HAVE_STRING_H
-
-/* Define to 1 if you have the <strstream> header file. */
-#undef HAVE_STRSTREAM
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
 #undef HAVE_SYS_STAT_H
