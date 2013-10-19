@@ -2,7 +2,8 @@
  { "autoconf": {
     "name": "cppunit_conf",
     "configure_env": [ "USER_LDFLAGS=\"-ldl\"" ],
-    "outs": [ "$GEN_DIR/lib/libcppunit.a" ]
+    "outs": [ "$GEN_DIR/lib/libcppunit.a" ],
+    "licenses": [ "http://opensource.org/licenses/LGPL-2.1" ]
  } },
  { "cc_library": {
     "name": "cppunit",
